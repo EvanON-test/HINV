@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--TODO: created this at the start. May need to be adjusted when more complex components are involved-->
+
+    <!--Primary color -->
+    <color name="colorPrimary">#073659</color>
+
+    <!-- Primary light color -->
+    <color name="colorPrimaryLight">#0ad4d2</color>
+
+    <!-- Primary dark color -->
+    <color name="colorPrimaryDark">#115579</color>
+
+    <!-- Accent color -->
+    <color name="colorAccent">#bdd5df</color>
+
+    <!-- Secondary text and icons -->
+    <color name="colorSecondaryText">#648197</color>
+
+    <!-- Other supporting colors -->
+    <color name="colorSupportingOne">#485d70</color>
+    <color name="colorSupportingTwo">#051729</color>
+    <color name="colorSupportingThree">#566f80</color>
+
+    <!-- Backgrounds -->
+    <color name="colorBackground">#FFFFFF</color>
+</resources>
+
