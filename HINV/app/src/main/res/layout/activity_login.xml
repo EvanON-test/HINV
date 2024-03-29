@@ -2,71 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
-    <ImageView
-        android:id="@+id/welcomeLogoImageView"
-        android:layout_width="240dp"
-        android:layout_height="240dp"
-        android:contentDescription="@string/logo"
-        app:srcCompat="@drawable/HINV_Logo_upscayled_4x_bgremoved"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="24dp"/>
-
-    <TextView
-        android:id="@+id/welcomeTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login_textview"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcomeLogoImageView"
-        android:layout_marginTop="24dp"
-        android:textAlignment="center"/>
-
-
-
-    <!--TODO: Change the below strings. I.e. version will be accessed from somewehre, dev name will be created in strings and url for learn more will be implemented somehow-->
-    <!--TODO: Potentially add a background to page - reup on midjourney for this-->
-
-
-    <TextView
-        android:id="@+id/appVersionTextView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="App Version"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/appDeveloperTextView"
-        app:layout_constraintHorizontal_weight="1"
-        android:textAlignment="center"
-        android:layout_marginBottom="10dp" />
-
-    <TextView
-        android:id="@+id/appDeveloperTextView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Developer Name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/appVersionTextView"
-        app:layout_constraintEnd_toStartOf="@+id/appLearnMoreTextView"
-        app:layout_constraintHorizontal_weight="1"
-        android:textAlignment="center"
-        android:layout_marginBottom="10dp" />
-
-    <TextView
-        android:id="@+id/appLearnMoreTextView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Learn More"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/appDeveloperTextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_weight="1"
-        android:textAlignment="center"
-        android:layout_marginBottom="10dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

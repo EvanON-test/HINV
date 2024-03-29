@@ -1,20 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <!--TODO: created this at the start. May need to be adjusted when more complex components are involved-->
     <style name="Base.Theme.HINV" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Primary branding color for the app -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <!-- Primary dark color for the status bar and other small accents -->
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <!-- Accent color for floating action buttons and other interactive elements -->
-        <item name="colorAccent">@color/colorPrimaryLight</item>
-        <!-- Background color for the content -->
-        <item name="android:windowBackground">@color/colorBackground</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
-        <!-- Navigation bar color. -->
-        <item name="android:navigationBarColor">@color/colorPrimary</item>
-        <!-- Customize your theme here. -->
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
     <style name="Theme.HINV" parent="Base.Theme.HINV" />

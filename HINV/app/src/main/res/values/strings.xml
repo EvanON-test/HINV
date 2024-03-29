@@ -1,14 +1,3 @@
 <resources>
-    <!--Welcome Screen-->
     <string name="app_name">HINV</string>
-    <string name="logo">This is an image of the HINV logo. It is constituted by a cartoon image of a house and the name Hinv below</string>
-    <string name="welcome">Welcome to HINV</string>
-    <string name="login_button">Login</string>
-    <string name="create_account_button">Create Account</string>
-
-    <!--Create Account Screen-->
-    <string name="create_account_textview">Please Create an Account</string>
-
-    <!--Login Screen-->
-    <string name="login_textview">Login</string>
 </resources>
